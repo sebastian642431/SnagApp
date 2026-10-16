@@ -3,6 +3,12 @@
 Versions follow [semantic versioning](https://semver.org). The version lives in
 the root `Cargo.toml`; a `vX.Y.Z` tag builds it and publishes the installers.
 
+## 1.0.1 — 2026-09-23
+
+### Changed
+- The installer no longer asks "Open it now?". It installs, opens the app and
+  closes on its own, and only waits for a key when something failed.
+
 ## 1.0.0 — 2026-09-23
 
 First release. Two builds of the same downloader, sharing a `snag-core` crate
